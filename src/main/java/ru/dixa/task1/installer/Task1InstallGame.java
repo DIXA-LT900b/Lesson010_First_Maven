@@ -1,6 +1,6 @@
-package dixa.task1.installer;
+package ru.dixa.task1.installer;
 
-import dixa.Installer;
+import ru.dixa.Installer;
 
 public class Task1InstallGame {
     public static void main(String[] args) {

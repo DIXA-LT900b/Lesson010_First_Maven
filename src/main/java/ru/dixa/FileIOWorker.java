@@ -1,4 +1,4 @@
-package dixa;
+package ru.dixa;
 
 import java.io.*;
 import java.nio.file.Files;
@@ -11,8 +11,6 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 import java.util.zip.ZipOutputStream;
 
-import static dixa.Settings.*;
-
 public class FileIOWorker {
 
     private static String fileNaming() {
@@ -21,7 +19,7 @@ public class FileIOWorker {
 
     public static void saveToFile(GameProgress progress) {
 
-        File file = new File(SAVEGAME_PATH + File.separator + fileNaming());
+        File file = new File(Settings.SAVEGAME_PATH + File.separator + fileNaming());
 
         if (!file.exists()) {
             try {

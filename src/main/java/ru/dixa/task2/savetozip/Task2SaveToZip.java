@@ -1,12 +1,12 @@
-package dixa.task2.savetozip;
+package ru.dixa.task2.savetozip;
 
-import dixa.FileIOWorker;
-import dixa.GameProgress;
+import ru.dixa.FileIOWorker;
+import ru.dixa.GameProgress;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-import static dixa.Settings.SAVEGAME_PATH;
+import static ru.dixa.Settings.SAVEGAME_PATH;
 
 public class Task2SaveToZip {
 

@@ -1,12 +1,12 @@
-package dixa.task3.openfromzip;
+package ru.dixa.task3.openfromzip;
 
-import dixa.FileIOWorker;
-import dixa.GameProgress;
+import ru.dixa.FileIOWorker;
+import ru.dixa.GameProgress;
 import java.nio.file.Path;
 import java.util.List;
 import java.util.Random;
 
-import static dixa.Settings.SAVEGAME_PATH;
+import static ru.dixa.Settings.SAVEGAME_PATH;
 
 public class Task3UnZip {
 

@@ -1,10 +1,10 @@
-package dixa;
+package ru.dixa;
 
 import java.io.*;
 import java.util.Arrays;
 import java.util.List;
 
-import static dixa.Settings.INSTALL_PATH;
+import static ru.dixa.Settings.INSTALL_PATH;
 
 public class Installer {
     private static StringBuilder installLog;
@@ -27,6 +27,14 @@ public class Installer {
     public Installer(){
         installLog = new StringBuilder("");
         pathList = Arrays.stream(paths).toList();
+    }
+    public Installer(String[] paths){
+        this();
+
+        if (paths != null) {
+            installLog = new StringBuilder("");
+            pathList = Arrays.stream(paths).toList();
+        }
     }
     public void run() {
 

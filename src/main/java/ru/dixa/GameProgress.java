@@ -1,4 +1,4 @@
-package dixa;
+package ru.dixa;
 
 import java.io.Serializable;
 
